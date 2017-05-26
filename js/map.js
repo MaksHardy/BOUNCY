@@ -121,7 +121,7 @@ function initMap() {
            animation: google.maps.Animation.DROP,
            position: position,
            map: map,
-           icon: 'js/map-icon.png',
+           icon: 'image/map-icon.png',
        });
 
         map.mapTypes.set('styled_map', styledMapType);
