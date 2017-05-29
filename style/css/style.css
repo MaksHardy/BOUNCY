@@ -114,7 +114,7 @@ body {
         opacity: 1;
         border-color: #19bd9a; }
       .header--clone nav ul li a:visited {
-        border-color: #19bd9a; }
+        border: 1px solid #19bd9a !important; }
   .header--stick {
     display: -webkit-flex;
     display: -ms-flexbox;

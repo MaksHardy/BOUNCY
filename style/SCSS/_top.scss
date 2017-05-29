@@ -106,12 +106,13 @@
         & nav ul li a {
             opacity: 0.5;
             color: #19bd9a;
+            // border: 1px solid rgba(25, 189, 154, 0);
             &:hover {
                 opacity: 1;
                 border-color: rgba(25, 189, 154, 1);
             }
             &:visited  {
-                border-color: rgba(25, 189, 154, 1);
+                border: 1px solid rgba(25, 189, 154, 1)!important;
             }
         }
     }
