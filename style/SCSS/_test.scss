@@ -1,6 +1,13 @@
 .test {
     background-color: #f3f3f3;
     padding-bottom: 100px;
+    & *{
+        -webkit-transition: none;
+           -moz-transition: none;
+            -ms-transition: none;
+             -o-transition: none;
+                transition: none;
+    }
     &__title-wrapper {
         width: 457px;
         margin: 0 auto;

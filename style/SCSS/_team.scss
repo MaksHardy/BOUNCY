@@ -1,10 +1,17 @@
-    .team {
+.team {
     &__wrapp {
         width: 100%;
         max-width: 1028px;
         margin: 0 auto;
         text-align: center;
         padding-bottom: 100px;
+    }
+    &__slick * {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
     }
     &__title {
         color: #333b46;
@@ -78,6 +85,7 @@
         transform: translate(50%, -50%);
         background-color: rgba(255, 255, 255, 0.75);
         opacity: 0;
+        transition: all .1s ease-in;
         &:hover {
             opacity: 1;
         }
@@ -134,13 +142,13 @@
                 background-color: #FFF;
             }
         }
-            &--twit {
-                background-color: #26A6D1;
-                border-color: #26A6D1;
-                &:hover {
-                    color: #26A6D1;
-                    background-color: #FFF;
-                }
+        &--twit {
+            background-color: #26A6D1;
+            border-color: #26A6D1;
+            &:hover {
+                color: #26A6D1;
+                background-color: #FFF;
             }
         }
     }
+}

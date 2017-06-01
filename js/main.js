@@ -1,11 +1,8 @@
 $(document).ready(function() {
-    
+
 
     // isotope
-    $('.portfolio__grid').isotope({
-        itemSelector: '.portfolio__photo',
 
-    });
 
     var $container = $('.portfolio__grid');
     $('#filters button').click(function() {
@@ -18,10 +15,17 @@ $(document).ready(function() {
         $container.isotope({ itemSelector: '.portfolio__photo', filter: selector });
         return false;
     });
+    $('.portfolio__grid').isotope({
+        itemSelector: '.portfolio__photo',
+        stagger: 30,
+        horizontalOrder: true
+
+    });
     $('.portfolio__grid').masonry({
         itemSelector: '.portfolio__photo',
         columnWidth: 270,
         // gutter: 1,
+        horizontalOrder: true
     });
     // wow
     new WOW().init();
@@ -102,7 +106,7 @@ $(document).ready(function() {
                 }
             }
         });
-$("body").on("click", ".nav__link", function() {
+    $("body").on("click", ".nav__link", function() {
         $(".nav__list .nav__link").removeClass("nav__link--active");
         $(this).addClass("nav__link--active");
     });

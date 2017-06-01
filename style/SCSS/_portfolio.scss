@@ -55,6 +55,13 @@
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
+    &__photo {
+        -webkit-transition: none;
+           -moz-transition: none;
+            -ms-transition: none;
+             -o-transition: none;
+                transition: none;
+    }
     &__photo img {
         width: 270px;
     }

@@ -24,6 +24,7 @@
         margin-top: 24px;
     }
 }
+
 .soc-but {
     &__list {
         margin: 0 5px;
@@ -35,13 +36,13 @@
         width: 26px;
         height: 26px;
         font-size: 20px;
-        line-height: 25px;
         border-radius: 50%;
         border: 1px solid;
         color: #FFF;
         &--fb {
             background-color: #3b5998;
             border-color: #3b5998;
+            line-height: 28px;
             &:hover {
                 color: #3b5998;
                 background-color: #FFF;
@@ -50,6 +51,7 @@
         &--tw {
             background-color: #26a6d1;
             border-color: #26A6D1;
+            line-height: 27px;
             &:hover {
                 color: #26A6D1;
                 background-color: #FFF;
@@ -58,6 +60,7 @@
         &--lin {
             background-color: #0e76a8;
             border-color: #0e76a8;
+            line-height: 23px;
             &:hover {
                 color: #0e76a8;
                 background-color: #FFF;
@@ -66,6 +69,7 @@
         &--inst {
             background-color: #3f729b;
             border-color: #3F729B;
+            line-height: 25px;
             &:hover {
                 color: #3f729b;
                 background-color: #FFF;
@@ -74,6 +78,7 @@
         &--v {
             background-color: #86c9ef;
             border-color: #86C9EF;
+            line-height: 26px;
             &:hover {
                 color: #86c9ef;
                 background-color: #FFF;
