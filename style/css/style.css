@@ -218,6 +218,12 @@ body {
     width: 1082px;
     margin: 0 auto;
     padding-bottom: 102px; }
+    .portfolio__grid * {
+      -webkit-transition: none;
+      -moz-transition: none;
+      -ms-transition: none;
+      -o-transition: none;
+      transition: none; }
   .portfolio__img {
     padding: 5px;
     -webkit-box-sizing: border-box;
